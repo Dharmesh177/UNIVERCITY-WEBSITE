@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/0c5fd83f58.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-page.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>CONTACT US</h1>
+    </section>
+
+
+    <SECTION class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14879.81967442272!2d72.86336325!3d21.193949749999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e551df820f9%3A0x526a828850ecfbee!2sBombay%20Market!5e0!3m2!1sen!2sin!4v1630745850154!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </SECTION>
+
+    <section class="contactUs">
+        <div class="row">
+            <div class="c-col">
+                <div>
+                    <i class="fa fa-home" ></i>
+                <span>
+                    <h2>B/37, Sitaram Society, Behind Archana School</h2>
+                    <p>Punagam Road, Surat, Gujarat IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone-square"></i>
+                <span>
+                    <h2>+91 9904971185</h2>
+                    <p>MONDAY TO SATURDAY ---- 10.00AM TO 7.00PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope" ></i>
+                <span>
+                    <h2>info@University.com</h2>
+                    <p>EMAIL US FOR YOUR QUERY</p>
+                </span>
+            </div>
+        </div>
+            <div class="c-col">
+
+                <form >
+                    <input type="text" placeholder="ENTER YOUR NAME" required>
+                    <input type="email" placeholder="ENTER YOUR MAIL" required>
+                    <input type="text" placeholder="ENTER YOUR SUBJECT" required>
+                    <textarea rows="10" placeholder="YOUR MESSAGE"></textarea>
+                    <button type="submit" class="hero-btn" id="explore">SEND MSG</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora accusamus asperiores, corrupti
+            quia eos.
+        </p>
+        <div class="icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = " -200px";
+        }
+    </script>
+</body>
+
+</html>

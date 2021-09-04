@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/0c5fd83f58.js" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+              
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-page.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+               
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>OUR COURSES</h1>
+    </section>
+
+    <section class="course">
+        <h1>COURSES WE OFFER</h1>
+        <P>We have provided various 8 courses of engineering including GIA AND SFI.</P>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>COMPUTER ENGINEERING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eaque autem deserunt, nam cupiditate temporibus! ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus iusto atque ipsum aliquam numquam dolore in itaque eum. Quo expedita consequuntur, provident ab delectus doloremque!</p>
+
+            </div>
+
+            <div class="course-col">
+                <h3>CIVIL ENGINEERING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptate cupiditate asperiores! Voluptate, illo aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus iusto atque ipsum aliquam numquam dolore in itaque eum. Quo expedita consequuntur, provident ab delectus doloremque!</p>
+                
+            </div>
+
+
+            <div class="course-col">
+                <h3>INFORMATION TECHNOLOGY</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, ducimus similique! Quis assumenda nisi eveniet? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus iusto atque ipsum aliquam numquam dolore in itaque eum. Quo expedita consequuntur, provident ab delectus doloremque!</p>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section class="facilities">
+        <h2>OUR FACILITIES</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ipsum voluptas doloremque?</p>
+    
+         <div class="row">
+             <div class="f-col">
+                 <img src="./images/library.png">
+                 <h2>Our library</h1>
+                 <p>we have a big libarary where max to 1000 student can read and explore their knowledge in various department. Also we have 100000+ book in shelf by that our scolar's make diffrent themself from other univercity student</p>
+             </div>
+
+             <div class="f-col">
+                <img src="./images/basketball.png">
+                <h2>basketball Ground</h1>
+                <p>We have a basketball ground of 5 hector with latest technology for our athlet's. we are feeling happy to say that our college athlet are doing their best in various state and nation's level comp.</p>
+                
+            </div>
+
+            <div class="f-col">
+                <img src="./images/cafeteria.png">
+                <h2>TESTY AND HEALTHY FOOD</h1>
+                 <p>we have a mess where 500 student can enjoy their food at a time. we make healthy and testy food for students so that they don't need to go elsewhere.</p>
+            </div>
+         </div>
+    </section>
+
+
+
+   
+    <section class="footer">
+        <h4>
+            About Us
+        </h4>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora accusamus asperiores, corrupti quia eos.
+        </p>
+       <div class="icon">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = " -200px";
+        }
+    </script>
+</body>
+</html>
